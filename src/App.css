@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: black;
+  min-height: 100vh;
+}
+
+button, input {
+  border-radius: 0.25rem;
+}

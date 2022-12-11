@@ -1,0 +1,44 @@
+.header {
+    position: relative;
+    background: #111;
+    padding: 20px 0 10px 0; 
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.header__title {
+    width: 13rem;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #dba506;
+    color: #FFEEDB;
+    font-size: 45px;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+.link{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    right: 2rem;
+    padding: 0.5rem;
+}
+
+.link:hover{
+    background: #222;
+    border-radius: 0.25rem;
+}
+
+.watchlist-icon{
+    width: 1.5rem;
+    margin: 0 0.25rem 0 0;
+}
+
+@media (max-width: 500px){
+    .header__title{
+        margin: 0 0 0 40px;
+    }
+}

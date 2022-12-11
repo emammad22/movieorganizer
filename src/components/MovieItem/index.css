@@ -1,0 +1,67 @@
+.movie-item {
+    width: 200px;
+    margin: 0 1rem 1rem 0;
+    padding: 0.8rem;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.25rem;
+}
+
+.movie-item__poster {
+    width: 200px;
+    margin-right: 21px;
+    height: 19rem;
+    border-radius: 0.25rem;
+}
+
+.movie-item__title {
+    height: 5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-item__add-button {
+    position: relative;
+    width: 100%;
+    border: none;
+    background-color: #444;
+    padding: 10px 15px;
+    color: rgb(87, 153, 239);
+    font-size: 14px;
+    margin: 0 auto;
+    transition: all 0.2s linear;
+}
+
+.movie-item__info{
+    width: 100%;
+}
+
+.movie-item__overview{
+    margin-bottom: 1rem;
+}
+
+.movie-item__add-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.2s linear;
+}
+
+.plus{
+    position: absolute;
+    font-size: 1.6rem;
+    left: 2.8rem;
+    top: 0.25rem;
+}
+
+@media (max-width: 500px) {
+    .movie-item {
+        margin-right: 0;
+    }
+}
